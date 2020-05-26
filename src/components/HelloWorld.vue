@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { TranslateResult, Locale } from "vue-i18n";
+import { TranslateResult } from "vue-i18n";
 
 import { Link, getEcosystemPlugins } from "@/models/model";
 
@@ -59,8 +59,9 @@ export default Vue.extend({
     };
   },
   watch: {
-    "$store.state.language": function(newLang: Locale) {
+    "$store.state.language": function(/* newLang: Locale */) {
       this.headline = this.$t("headline");
+      // this.headline = this.$tc("headline", 0, newLang); // If you want to use the newly selected language
       this.essentialLinks = (this.$t("essentialLinks") as unknown) as Link[];
       this.ECOSYSTEM_PLUGINS = getEcosystemPlugins();
     }
