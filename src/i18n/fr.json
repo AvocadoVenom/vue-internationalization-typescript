@@ -1,0 +1,38 @@
+{
+  "titles": {
+    "main": "Bienvenue dans votre application Vue.js + TypeScript",
+    "plugins": "Librairies CLI installées",
+    "links": "Liens essentiels",
+    "ecosystem": "Ecosystème"
+  },
+  "headline": "Pour le guide et des astuces sur commencer configurer / customiser ce projet,<br />rendez-vous sur <a href=\"https://cli.vuejs.org\" target=\"_blank\" rel=\"noopener\">la documentation de vue-cli</a>.",
+  "essentialLinks": {
+    "coreDocs": {
+      "caption": "Documentation de base",
+      "url": "https://vuejs.org"
+    },
+    "forum": {
+      "caption": "Forum",
+      "url": "https://forum.vuejs.org"
+    },
+    "communityChat": {
+      "caption": "Chat de la communauté",
+      "url": "https://chat.vuejs.org"
+    },
+    "twitter": {
+      "caption": "Twitter",
+      "url": "https://twitter.com/vuejs"
+    },
+    "news": {
+      "caption": "Actualités",
+      "url": "https://news.vuejs.org"
+    }
+  },
+  "ecosystem": {
+    "vue-router": "router Vue",
+    "vuex": "Store Vue",
+    "vue-devtools": "Outils de développement Vue",
+    "vue-loader": "vue-loader",
+    "awesome-vue": "awesome-vue"
+  }
+}
